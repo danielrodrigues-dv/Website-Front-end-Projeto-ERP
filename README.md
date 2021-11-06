@@ -54,7 +54,7 @@ O layout da aplicação está disponível no Netlify:
 </a>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="danielrodrigues-dv" title="#Software-em-C" src="https://i.ibb.co/XtwmNCN/calculadora-react.jpg" />
+ 
 </p>
 
 ---
