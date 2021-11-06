@@ -35,13 +35,13 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-💪 Projeto Curso - Uma calculadora comum imitando o visual da calculadora do Mac OS, é só clicar com o mouse e realizar a operação desejada.
+💪 [Titulo Descrição] - [Descrição].
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x] Realizar Operções matemáticas.
+- [x] [Texto aqui].
 
 ---
 
@@ -49,8 +49,8 @@ Tabela de conteúdos
 
 O layout da aplicação está disponível no Netlify:
 
-<a href="https://danielrodrigues-dv-calculadora-react-dv.netlify.app/">
-  <img alt="Made by danielrodrigues-dv" src="https://img.shields.io/badge/Acessar%20Layout%20-aqui-%2304D361?style=flat-square">
+<a href="#">
+  <img alt="Imagem aqui do Projeto" src="">
 </a>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
@@ -70,21 +70,9 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 
 #### 🧭 Rodando a aplicação
-```bash
+```
 
-# Clone este repositório
-$ git clone https://github.com/danielrodrigues-dv/Calculadora-React.git
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd Calculadora-React
-
-# Instale as dependências
-$ yarn install # ou npm install
-
-# Execute a aplicação
-$ yarn start # ou npm start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+[Descrição aqui]
 
 ```
 ---
