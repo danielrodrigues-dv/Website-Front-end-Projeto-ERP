@@ -1,0 +1,511 @@
+a:visited{
+  color: #000000;
+  }
+  a:link{
+  text-decoration: none;
+  }
+  body, html{
+  margin:0;
+  padding:0;
+  }
+  .main{
+  max-width:1200px;
+  margin:0 auto;
+  overflow:hidden;
+  /*background: #BEBEBE;*/
+  }
+  .content{
+  float:left;
+  width:100%;
+  margin-right:-210px;
+  }
+  .content-inner{
+  margin-right:210px;
+  }
+  .menu{
+  width:100%;
+  background: #FFA500;
+  }
+  .menu ul{
+  margin:0; 
+  padding:0;
+  }
+  .menu ul li{
+  display:inline-block;
+  *display:inline;
+  zoom:1;
+  margin:0; 
+  padding:0;
+  }
+  .menu ul li:hover{
+  background: #01AAA1;
+  }
+  .menu ul li a{
+  display:block;
+  padding:20px;
+  color:#fff;
+  text-decoration: none;
+  position: relative;
+  }	
+  @media screen and (max-width: 700px) {
+  .sidebar, .content-inner, .content{
+  float: none;
+  width: 100%;
+  margin-right:0;
+  }
+  }	
+  .maga{
+  max-width:1200px;
+  margin:10px auto;
+  overflow:blue;
+  height: 250px;
+  }
+  .sobretopico{
+  text-align: center;
+  font-size: 15px;
+  }
+  .contentsobre{
+  /*background:#FFFFE0;*/
+  font-size: 15px;
+  }
+  .valoress li{
+  margin: 0 auto;
+  display: inline-block;
+  }
+  #megabanner:hover{
+  border: none;
+    text-decoration: none;
+  }
+  #sobretopooo{
+  font-size: 15px;
+  /*background: #FFFFE0;*/
+  }
+  #saibamais a{
+  width:8%;
+  background: #01AAA1;
+  text-align: center;
+  list-style: none;
+  height: 20px;
+  text-decoration: none;
+  }
+  .produtoum{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtoum.png");
+  }
+  .produtoum:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtodois{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtodois.png");
+  }
+  .produtodois:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtotres{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtotres.png");
+  }
+  .produtotres:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtoquatro{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtoquatro.png");
+  }
+  .produtoquatro:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtocinco{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtocinco.png");
+  }
+  .produtocinco:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtoseis{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtoseis.png");
+  }
+  .produtoseis:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtooito{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtooito.png");
+  }
+  .produtooito:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtonove{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtonove.png");
+  }
+  .produtonove:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtodez{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtodez.png");
+  }
+  .produtodez:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtoonze{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtoonze.png");
+  }
+  .produtoonze:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtodoze{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtodoze.png");
+  }
+  .produtodoze:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtojuridico{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtojuridico.png");
+  }
+  .produtojuridico:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtoadministracao{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtoadministracao.png");
+  }
+  .produtoadministracao:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtorh{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtorh.png");
+  }
+  .produtorh:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtocontabilidade{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtocontabilidade.png");
+  }
+  .produtocontabilidade:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtotecnologia{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtotecnologia.png");
+  }
+  .produtotecnologia:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .produtodiretoria{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/produtodiretoria.png");
+  }
+  .produtodiretoria:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  
+  
+  /*Configuração contato*/
+  .contum{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/contum.png");
+  }
+  .contum:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .contdois{
+  width: 215px;
+  height: 240px;
+  background-image: url("../imagem/contdois.png");
+  }
+  .contdois:hover{
+  background-image: url("../imagem/img_saibamais.png");
+  }
+  .conttres{
+    width: 215px;
+    height: 240px;
+    background-image: url("../imagem/conttres.png");
+    }
+    .conttres:hover{
+    background-image: url("../imagem/img_saibamais.png");
+    }
+    .contquatro{
+      width: 215px;
+      height: 240px;
+      background-image: url("../imagem/contquatro.png");
+      }
+      .contquatro:hover{
+      background-image: url("../imagem/img_saibamais.png");
+      }
+  /*Fim Configuração Contato*/
+  
+  
+  
+  .oklaranja a{
+  background: #FFA500;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  }
+  #megaespaco{
+  margin: 200px;
+  }
+  .footer{
+  width:100%;
+  background:#FFA500;
+  text-decoration: none;
+  color: white;
+  height: 50px;
+  }
+  .imagemlado{
+  text-align: center;
+  }
+  #a {
+  float: left;
+  margin-top: 1px;
+  margin-left: 30px;
+  }
+  #b {
+  float: left;
+  margin-top: 0px;
+  margin-left: 30px;
+  }
+  #c {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  }
+  div#a-b-c h2 {
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 600px;
+  }
+  div#a-b-c h5 {
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 600px;
+  margin-bottom: 40px;
+  }
+  
+  /*Inicio - Configuração menu lateral e central*/
+  @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .wrapper{
+    display: flex;
+    position: relative;
+  }
+  .wrapper .sidebar{
+    width: 200px;
+    height: 100%;
+    background: #4b4276;
+    padding: 30px 0px;
+    position: fixed;
+  }
+  .wrapper .sidebar h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }    
+  .wrapper .sidebar ul li a{
+    color: #bdb8d7;
+    display: block;
+  }
+  .wrapper .sidebar ul li a .fas{
+    width: 25px;
+  }
+  .wrapper .sidebar ul li:hover{
+    background-color: #594f8d;
+  }   
+  .wrapper .sidebar ul li:hover a{
+    color: #fff;
+  }
+  .wrapper .sidebar .social_media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .wrapper .sidebar .social_media a{
+    display: block;
+    width: 40px;
+    background: #594f8d;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .wrapper .main_content{
+    width: 100%;
+    margin-left: 200px;
+  }
+  .main_content{
+  /*Fundo Conteudo*/
+    background-color: #f3f5f9;
+  }
+  .btn1{
+    float:  right ;
+    padding: 0px 600px 0px;
+  }
+  .wrapper .main_content .header{
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+  }
+  .wrapper .main_content .info{
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+  }
+  .wrapper .main_content .info div{
+    margin-bottom: 20px;
+  }
+  /*Fim - Configuração menu lateral e central*/
+  
+  
+  /*Inicio - Configuração menu cascata*/
+  .accordion {
+    background-color: #4b4276;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  .active, .accordion:hover {
+    background-color: #594F8D;
+  }
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  .active:after {
+    content: "\2212";
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  
+  #opp{
+    margin-top: 20px;
+    }
+  /*Fim - Configuração menu cascata*/
+  
+  #lista{
+    width: 97%;
+    margin: auto;
+  }
+  #filtro-nome{
+  box-shadow: black;
+  }
+  
+  /*Inicio - Configuração login*/
+  #logincentro{
+  width: 502px;
+  height: 200px;
+  margin: auto;
+  }
+  #logincont{
+  width: 502px;
+  text-align: center;
+  height: 100px;
+  margin: auto;
+  }
+  /*Fim - configuração login*/
+  
+  
+  #btnuser{
+    width: 450px;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  #btnpassword{
+    width: 450px;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  #btnentrar{
+  border-radius: 5px;
+  width: 450px;
+  margin-left: 20px;
+  height: 30px;
+  margin-top: 20px;
+  }
+  #btnentrar:hover{
+    background: rgb(255, 255, 255);
+  }
+  
+  #cntcentral{
+    background: #594f8d;
+    width: 500px;
+    height: 420px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 11px;
+  }
+  .text01{
+    margin-left: 20px;
+    color: white;
+    margin-top: 15px; 
+  }
+  #titt{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 200px;
+  color: white;
+  }

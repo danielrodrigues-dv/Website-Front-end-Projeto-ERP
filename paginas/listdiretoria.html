@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>lista diretoria</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+  <!--Inicio configuração Table-->
+
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: center;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+  <!--Final configuração Table-->
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+      <h2>PAINEL</h2>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="departamento.html"><i class="fas fa-user"></i>Department</a></li>
+        <li><a href="contato.html"><i class="fas fa-address-book"></i>Company</a></li>
+        <li><a href="wifi.html"><i class="fas fa-wifi"></i>Wifi</a></li>
+        <li><a href="login.html"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+      </ul>
+      <div class="social_media">
+        <a href="#"><i class="fas fa-globe"></i></a>
+        <a href="#"><i class="fas fa-network-wired"></i></a>
+        <a href="#"><i class="far fa-calendar-alt"></i></a>
+      </div>
+    </div>
+    <div class="main_content">
+      <div class="header">Lista Diretoria</div>
+      <div class="info">
+        <center>
+          <h2>LISTA - DIRETORIA</h2>
+        </center>
+        <br>
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Perfil</th>
+          </tr>
+          <tr>
+            <td>Daniel Soares</td>
+            <td><a href="perfilunico.html"><i class="fas fa-eye"></i><a></td>
+          </tr>
+        </table>
+        <br>
+        <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+            });
+          }
+        </script>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

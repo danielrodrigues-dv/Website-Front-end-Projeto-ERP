@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>câmera</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+  <!--Inicio configuração Table-->
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+
+  <!--Final configuração Table-->
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar">
+      <h2>PAINEL</h2>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="departamento.html"><i class="fas fa-user"></i>Department</a></li>
+        <li><a href="contato.html"><i class="fas fa-address-book"></i>Company</a></li>
+        <li><a href="wifi.html"><i class="fas fa-wifi"></i>Wifi</a></li>
+        <li><a href="login.html"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+      </ul>
+      <div class="social_media">
+        <a href="#"><i class="fas fa-globe"></i></a>
+        <a href="#"><i class="fas fa-network-wired"></i></a>
+        <a href="#"><i class="far fa-calendar-alt"></i></a>
+      </div>
+    </div>
+    <div class="main_content">
+      <div class="header">Câmera</div>
+      <div class="info">
+        <center>
+          <h2>CÂMERA - CONFIGURAÇÃO - SÃO PAULO</h2>
+        </center>
+        <br>
+
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+          </tr>
+          <tr>
+            <td>Alcunha</td>
+            <td>DVR SP</td>
+          </tr>
+          <tr>
+            <td>Modo de Registro:</td>
+            <td>IP/Domain</td>
+          </tr>
+          <tr>
+            <td>Endereço:</td>
+            <td>127.0.0.0.1</td>
+          </tr>
+          <tr>
+            <td>Porta</td>
+            <td>1000</td>
+          </tr>
+          <tr>
+            <td>Nome utilizador</td>
+            <td>admin</td>
+          </tr>
+          <tr>
+            <td>Palavra-passe</td>
+            <td>solicitar para o gestor</td>
+          </tr>
+          <tr>
+            <td>Nº da câmera</td>
+            <td>12</td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <center>
+          <h2>CÂMERA - CONFIGURAÇÃO - RIO DE JANEIRO</h2>
+        </center>
+        <br>
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+          </tr>
+          <tr>
+            <td>Alcunha</td>
+            <td>DVR RJ</td>
+          </tr>
+          <tr>
+            <td>Modo de Registro:</td>
+            <td>IP/Domain</td>
+          </tr>
+          <tr>
+            <td>Endereço:</td>
+            <td>127.0.0.0.1</td>
+          </tr>
+          <tr>
+            <td>Porta</td>
+            <td>1000</td>
+          </tr>
+          <tr>
+            <td>Nome utilizador</td>
+            <td>admin</td>
+          </tr>
+          <tr>
+            <td>Palavra-passe</td>
+            <td>solicitar para o gestor</td>
+          </tr>
+          <tr>
+            <td>Nº da câmera</td>
+            <td>10</td>
+          </tr>
+        </table>
+
+        <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+            });
+          }
+        </script>
+
+        <br>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
