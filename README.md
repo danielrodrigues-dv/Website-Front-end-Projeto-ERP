@@ -1,4 +1,4 @@
-<h1 align="center">Calculadora React JS</h1>			
+<h1 align="center">WebSite ERP</h1>			
 <br>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/danielrodrigues-dv/Software-em-C?style=flat-square&&color=%2304D361" />
@@ -15,7 +15,7 @@
   </a>
 </p>
 
-<h4 align="center">🚧 🚀 Concluído 🚀 🚧</h4>
+<h4 align="center">🚧 🚀 Em desenvolvimento 🚀 🚧</h4>
 	
 
 Tabela de conteúdos
